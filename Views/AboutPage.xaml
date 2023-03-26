@@ -17,6 +17,7 @@
 
         <Label Text="{Binding Message}" />
         <Button Text="Learn more..." Command="{Binding ShowMoreInfoCommand}" />
+        <Button Text="Notification"  Command="{Binding ShowNotificationCommand}"></Button>
     </VerticalStackLayout>
 
 </ContentPage>
